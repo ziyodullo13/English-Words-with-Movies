@@ -1,0 +1,11 @@
+# Movie Clip Bot — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Telegram framework (async, MTProto)
+pyrogram==2.0.106
+TgCrypto          # C-extension for faster crypto — required by Pyrogram
+
+# Subtitle parsing
+pysrt==1.1.2
+
+# (FFmpeg itself must be installed separately — see README.md)
